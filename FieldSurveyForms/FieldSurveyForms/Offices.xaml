@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="FieldSurveyForms.Offices"
+             Title="Manifest List">
+
+  <ListView ItemsSource="{x:Static local:NamedColor.All}">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <ViewCell.View>
+            <Label Text="{Binding UserFirstName}" />
+          </ViewCell.View>
+        </ViewCell>
+        <ViewCell>
+          <ViewCell.View>
+            <Label Text="{Binding ServiceZone_Name}" />
+          </ViewCell.View>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+  
+</ContentPage>

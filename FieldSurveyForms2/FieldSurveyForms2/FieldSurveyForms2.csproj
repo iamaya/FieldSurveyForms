@@ -87,6 +87,10 @@
     <Compile Include="Views\ProductItems.xaml.cs">
       <DependentUpon>ProductItems.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\ViewModels\SimplifiedViewModels\ManifestDetailsViewModel.cs" />
+    <Compile Include="DataAccess\GetVisitStatus.cs" />
+    <Compile Include="DataAccess\GetServiceTypes.cs" />
+    <Compile Include="DataAccess\GetProductStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

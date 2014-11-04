@@ -10,6 +10,7 @@ namespace FieldSurveyForms2
 
 		public string SavePic()
 		{
+			return "";
 			//var image = new WebImage(file.InputStream);
 			//double ratio = (double)image.Height / (double)image.Width;
 			//image.Resize(800, (int)(800 * ratio));

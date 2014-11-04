@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			x:Class="FieldSurveyForms2.Views.OfficeDetails">
+  <ContentPage.Content>
+    <StackLayout BackgroundColor= "Gray" Orientation="Vertical">
+      <Label Text="{Binding Company}" YAlign="Center" TextColor="Blue"/>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="{Binding ContactFirstName}" YAlign="Center" />
+        <Label Text="{Binding ContactLastName}" YAlign="Center"/>
+      </StackLayout>
+      <ListView x:Name="listProducts">
+
+      </ListView>
+
+    </StackLayout>
+
+  </ContentPage.Content>
+</ContentPage>

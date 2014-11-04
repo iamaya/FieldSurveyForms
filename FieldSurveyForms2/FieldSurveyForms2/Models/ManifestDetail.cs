@@ -7,7 +7,6 @@ namespace FieldSurveyForms2.Models
     {
         public ManifestDetail()
         {
-
             this.ProductDetails = new List<ProductDetail>();
             this.TripPlans = new List<TripPlan>();
             this.Visits = new List<Visit>();
@@ -47,7 +46,7 @@ namespace FieldSurveyForms2.Models
         public Status Status { get; set; }
         public Status Status1 { get; set; }
         public ServiceZone ServiceZone { get; set; }
-        public ICollection<ProductDetail> ProductDetails { get; set; }
+        public List<ProductDetail> ProductDetails { get; set; }
         public ICollection<TripPlan> TripPlans { get; set; }
         public ICollection<Visit> Visits { get; set; }
     }

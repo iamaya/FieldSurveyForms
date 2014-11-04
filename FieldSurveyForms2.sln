@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldSurveyForms2", "FieldSurveyForms2\FieldSurveyForms2\FieldSurveyForms2.csproj", "{9EA8B401-CD3C-47B9-82AC-76E8114A365E}"
@@ -107,6 +107,9 @@ Global
 		{E1B423E8-31D9-4531-ADD6-8833E504DF9B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E1B423E8-31D9-4531-ADD6-8833E504DF9B}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
 		{E1B423E8-31D9-4531-ADD6-8833E504DF9B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FieldSurveyForms2\FieldSurveyForms2.Android\FieldSurveyForms2.Android.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

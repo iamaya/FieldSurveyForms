@@ -8,6 +8,10 @@ namespace FieldSurveyForms2.Models.ViewModels
 {
     public class ManifestMasterViewModel
     {
+        public ManifestMasterViewModel()
+        {
+
+        }
         public int Id { get; set; }
         public int Id_ManifestMaster { get; set; }
         public Nullable<int> Id_Status { get; set; }

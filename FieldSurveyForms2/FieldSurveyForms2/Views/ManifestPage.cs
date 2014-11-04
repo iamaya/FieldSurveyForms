@@ -16,23 +16,23 @@ namespace FieldSurveyForms2.Views
 
         public ManifestPage()
         {
-
-            Label header = new Label
-            {
-                Text = "Manifests",
-                Font = Font.BoldSystemFontOfSize(35),
-                HorizontalOptions = LayoutOptions.Center
-            };
+            //Label header = new Label
+            //{
+            //    Text = "Manifests",
+            //    Font = Font.SystemFontOfSize(35),
+            //    HorizontalOptions = LayoutOptions.Center
+            //};
 
             listView = new ListView();
             listView.ItemTemplate = new DataTemplate(typeof(ManifestCells));
 
             var getManifests = new GetManifests();
 
-            var result = Task.Factory.StartNew( ()=> getManifests.InvokeAPIAsync(""));
+            var result = Task.Factory.StartNew(()=> getManifests.InvokeAPIAsync(""));
             listView.ItemsSource = result.Result.Result.manifestMasterview;
 
             layout = new RelativeLayout();
+
             layout.Children.Add(
                 listView,
                 xConstraint: Constraint.Constant(0),
@@ -42,9 +42,9 @@ namespace FieldSurveyForms2.Views
             
             var stack = new StackLayout
             {
-                Orientation = StackOrientation.Vertical,
+             //   Orientation = StackOrientation.Vertical,
                 Children = { 
-                    header,
+                   // header
                     layout
                 }
             };

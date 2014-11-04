@@ -7,6 +7,7 @@ namespace FieldSurveyForms2.Models
     {
         public ManifestDetail()
         {
+
             this.ProductDetails = new List<ProductDetail>();
             this.TripPlans = new List<TripPlan>();
             this.Visits = new List<Visit>();
@@ -26,6 +27,8 @@ namespace FieldSurveyForms2.Models
         public string TechType { get; set; }
         public string NetworkType { get; set; }
         public string WRN_Status { get; set; }
+        public string WRName { get; set; }
+        public string WRLocation { get; set; }
         public Nullable<bool> Service_Required { get; set; }
         public Nullable<bool> Service_Performed { get; set; }
         public string HRS_Monday { get; set; }

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace FieldSurveyForms2.Models
 {
@@ -12,7 +13,9 @@ namespace FieldSurveyForms2.Models
 
         public int ID { get; set; }
         
+        [Required(ErrorMessage = "Please enter Subject.")]
         public string Subject { get; set; }
+        [Required(ErrorMessage = "Please enter Body.")]
         public string Body { get; set; }
         public System.DateTime CreateDate { get; set; }
         public string CreatedBy { get; set; }

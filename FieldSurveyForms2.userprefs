@@ -1,30 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.TA992153JT" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FieldSurveyForms2\FieldSurveyForms2\Views\OfficeDetails.xaml.cs">
-    <Files>
-      <File FileName="FieldSurveyForms2\FieldSurveyForms2\Views\OfficeDetails.xaml.cs" Line="6" Column="6" />
-    </Files>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="FieldSurveyForms2" expanded="True">
-            <Node name="DataAccess" expanded="True" />
-            <Node name="Models" expanded="True" />
-            <Node name="Views" expanded="True">
-              <Node name="Manifests.xaml" expanded="True" />
-              <Node name="OfficeDetails.xaml" expanded="True">
-                <Node name="OfficeDetails.xaml.cs" selected="True" />
-              </Node>
-              <Node name="OfficeItems.xaml" expanded="True" />
-              <Node name="Offices.xaml" expanded="True" />
-              <Node name="ProductItems.xaml" expanded="True" />
+            <Node name="Models" expanded="True">
+              <Node name="Visit.cs" selected="True" />
             </Node>
+            <Node name="Views" expanded="True" />
           </Node>
-          <Node name="FieldSurveyForms2.Android" expanded="True" />
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -32,4 +18,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>../../xamarin-forms-samples/XAMLSamples/xamlsamples/xamlsamples/XamlSamples.csproj</String>
+  </DisabledProjects>
 </Properties>

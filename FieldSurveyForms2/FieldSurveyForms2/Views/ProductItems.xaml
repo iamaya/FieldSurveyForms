@@ -1,11 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
-xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 x:Class="FieldSurveyForms2.Views.ProductItems">
-
-  <StackLayout Orientation="Horizontal">
-    <Label Text="Product : " YAlign="Center"/>
-    <Label Text="{Binding Product.Name}" YAlign="Center"/>
-  </StackLayout>
-
+	<StackLayout Orientation="Vertical">
+		<StackLayout Orientation="Horizontal">
+			<Label Text="Product : " YAlign="Center" TextColor="Aqua" />
+			<Label Text="{Binding Product.Name}" YAlign="Center" />
+		</StackLayout>
+		<StackLayout Orientation="Horizontal">
+			<Label Text="Authorization : " YAlign="Center" />
+			<Label Text="{Binding Product.Name}" YAlign="Center" />
+		</StackLayout>
+		<StackLayout Orientation="Horizontal">
+			<Label Text="Status : " YAlign="Center" />
+			<Label Text="{Binding Product.Name}" YAlign="Center" />
+		</StackLayout>
+		<StackLayout Orientation="Horizontal">
+			<Label Text="Placement : " YAlign="Center" />
+			<Label Text="{Binding Product.Name}" YAlign="Center" />
+		</StackLayout>
+		<StackLayout Orientation="Horizontal">
+			<Label Text="Comments : " YAlign="Center" />
+			<Label Text="{Binding Product.Name}" YAlign="Center" />
+		</StackLayout>
+		<StackLayout Orientation="Horizontal" Padding="0,0,0,20">
+			<Label Text="Pictures : " YAlign="Center" />
+			<Label Text="{Binding Product.Name}" YAlign="Center" />
+		</StackLayout>
+	</StackLayout>
 </ContentView>

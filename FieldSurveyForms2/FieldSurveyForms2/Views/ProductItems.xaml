@@ -9,19 +9,19 @@ x:Class="FieldSurveyForms2.Views.ProductItems">
 		</StackLayout>
 		<StackLayout Orientation="Horizontal">
 			<Label Text="Authorization : " YAlign="Center" />
-			<Label Text="{Binding Product.Name}" YAlign="Center" />
+			<Label Text="{Binding Barcode}" YAlign="Center" />
 		</StackLayout>
 		<StackLayout Orientation="Horizontal">
 			<Label Text="Status : " YAlign="Center" />
-			<Label Text="{Binding Product.Name}" YAlign="Center" />
+			<Label Text="{Binding Status1.Status1}" YAlign="Center" />
 		</StackLayout>
-		<StackLayout Orientation="Horizontal">
+		<!--<StackLayout Orientation="Horizontal">
 			<Label Text="Placement : " YAlign="Center" />
 			<Label Text="{Binding Product.Name}" YAlign="Center" />
-		</StackLayout>
+		</StackLayout>-->
 		<StackLayout Orientation="Horizontal">
 			<Label Text="Comments : " YAlign="Center" />
-			<Label Text="{Binding Product.Name}" YAlign="Center" />
+			<Label Text="{Binding Comments}" YAlign="Center" />
 		</StackLayout>
 		<StackLayout Orientation="Horizontal" Padding="0,0,0,20">
 			<Label Text="Pictures : " YAlign="Center" />

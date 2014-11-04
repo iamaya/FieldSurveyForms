@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="FieldSurveyForms2.Views.OfficeItems">
+  <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" Padding="20,20,20,20">
+    <Label Text="{Binding IDAccount}" YAlign="Center" TextColor="Blue" />
+    <Label Text="{Binding Company}" YAlign="Center" />
+    <StackLayout Orientation="Horizontal">
+      <Label Text="{Binding Address1}" YAlign="Center" />
+      <Label Text="{Binding Address2}" YAlign="Center" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="{Binding City}" YAlign="Center" />
+      <Label Text="{Binding State}" YAlign="Center" />
+      <Label Text="{Binding PostalCode}" YAlign="Center" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="{Binding ContactFirstName}" YAlign="Center"  TextColor="Blue"/>
+      <Label Text="{Binding ContactLastName}" YAlign="Center" TextColor="Blue" />
+    </StackLayout>
+  </StackLayout>
+</ContentView>

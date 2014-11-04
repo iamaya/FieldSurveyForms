@@ -91,6 +91,7 @@
     <Compile Include="DataAccess\GetVisitStatus.cs" />
     <Compile Include="DataAccess\GetServiceTypes.cs" />
     <Compile Include="DataAccess\GetProductStatus.cs" />
+    <Compile Include="Helpers\BlogHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -110,6 +111,9 @@
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>lib\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -165,4 +169,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+  </ItemGroup>
 </Project>

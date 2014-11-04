@@ -92,6 +92,7 @@
     <Compile Include="DataAccess\GetServiceTypes.cs" />
     <Compile Include="DataAccess\GetProductStatus.cs" />
     <Compile Include="Helpers\BlogHelper.cs" />
+    <Compile Include="Helpers\UploadPicToBlog.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -113,6 +114,12 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.WindowsAzure.Storage">
       <HintPath>lib\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="ExifLib">
+      <HintPath>..\..\packages\ExifLib.PCL.1.0.0\lib\portable-net45+sl50+win+WindowsPhoneApp81+wp80+MonoAndroid10+MonoTouch10\ExifLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Labs">
+      <HintPath>..\..\packages\Xamarin.Forms.Labs.1.2.0\lib\portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1\Xamarin.Forms.Labs.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

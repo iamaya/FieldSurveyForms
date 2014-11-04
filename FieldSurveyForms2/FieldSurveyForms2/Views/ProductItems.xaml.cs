@@ -10,6 +10,13 @@ namespace FieldSurveyForms2.Views
 		{
 			InitializeComponent ();
 		}
+
+
+		public void AddPicture(object sender, EventArgs args)
+		{
+
+		}
+
 	}
 
 

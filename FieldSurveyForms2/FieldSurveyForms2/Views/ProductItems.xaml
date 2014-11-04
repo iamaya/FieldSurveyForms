@@ -27,5 +27,6 @@ x:Class="FieldSurveyForms2.Views.ProductItems">
 			<Label Text="Pictures : " YAlign="Center" />
 			<Label Text="{Binding Product.Name}" YAlign="Center" />
 		</StackLayout>
+<Button  BackgroundColor="Yellow"  Text="Add Picture" Clicked="AddPicture"></Button>
 	</StackLayout>
 </ContentView>

@@ -16,7 +16,6 @@ namespace FieldSurveyForms2.Helpers
 
 		public string DownloadBlobfromAzure ()
 		{
-
 			string storageConnectionString = connectionstring;
 
 			// Create the storage account with the connection string.

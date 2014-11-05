@@ -34,7 +34,7 @@ namespace FieldSurveyForms2.DataAccess
 
             client.BaseAddress = BaseUri;
 
-            var response = await client.GetAsync("api/ManifestDetails/GetManifestDetailsByRefUserId/1/20/48d71237-e8a1-453e-9694-1384691f7a02!!System%20Administrator!!ALL!!37/dump");
+            var response = await client.GetAsync("api/ManifestDetails/GetManifestDetailsByRefUserId/1/20/48d71237-e8a1-453e-9694-1384691f7a02!!System%20Administrator!!ALL!!37!!1/dump");
 
             var returnJson = response.Content.ReadAsStringAsync().Result;
             return JsonConvert.DeserializeObject<ManifestZonesPagedViewModel>(returnJson);

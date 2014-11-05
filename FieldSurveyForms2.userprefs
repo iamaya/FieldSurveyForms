@@ -1,36 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FieldSurveyForms2/FieldSurveyForms2/FieldSurveyForms2.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml.cs">
     <Files>
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml.cs" Line="4" Column="4" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml.cs" Line="3" Column="3" />
       <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml" Line="1" Column="1" />
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/packages.config" Line="39" Column="39" />
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/FieldSurveyForms2.csproj" Line="12" Column="12" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/packages.config" Line="1" Column="1" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Helpers/UploadPicToBlog.cs" Line="16" Column="16" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ManifestItems.xaml" Line="15" Column="15" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/Manifests.xaml" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="FieldSurveyForms2" expanded="True">
-            <Node name="References" expanded="True" />
-            <Node name="Packages" expanded="True" />
-            <Node name="DataAccess" expanded="True" />
-            <Node name="Helpers" expanded="True" />
-            <Node name="Views" expanded="True">
-              <Node name="OfficeDetails.xaml" expanded="True" />
-              <Node name="ProductItems.xaml" expanded="True" />
-            </Node>
-          </Node>
-          <Node name="FieldSurveyForms2.Android" expanded="True">
-            <Node name="Packages" expanded="True">
-              <Node name="Xamarin.Forms" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -40,5 +18,6 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>../../xamarin-forms-samples/XAMLSamples/xamlsamples/xamlsamples/XamlSamples.csproj</String>
+    <String>FieldSurveyForms2/FieldSurveyForms2.Android/FieldSurveyForms2.Android.csproj</String>
   </DisabledProjects>
 </Properties>

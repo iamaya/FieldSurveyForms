@@ -2,12 +2,12 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
 					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 					   x:Class="FieldSurveyForms2.Views.ManifestItems">
-  <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" Padding="20,20,20,20">
-    <Label Text="{Binding ServiceZone_Name}" YAlign="Center" />
+  <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <Label Text="{Binding ServiceZone_Name}"  TextColor="Blue" HorizontalOptions="Start"/>
     <StackLayout Orientation="Horizontal">
-      <Label Text="{Binding UserFirstName}" YAlign="Center" />
-      <Label Text="{Binding UserLastName}" YAlign="Center" />
+      <Label Text="{Binding UserFirstName}" HorizontalOptions="Start"/>
+      <Label Text="{Binding UserLastName}" HorizontalOptions="Start"/>
     </StackLayout>
-    <Label Text="{Binding manifeststatus}" YAlign="Center" />
+     <Label Text="{Binding manifeststatus}" HorizontalOptions="Start" />
   </StackLayout>
 </ContentView>

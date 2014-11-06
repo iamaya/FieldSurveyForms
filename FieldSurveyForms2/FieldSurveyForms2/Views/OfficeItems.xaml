@@ -2,7 +2,7 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
 					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 					   x:Class="FieldSurveyForms2.Views.OfficeItems">
-  <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+  <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand"  Padding="0,0,0,20">
     <Label Text="{Binding IDAccount}"  TextColor="Blue" />
     <Label Text="{Binding Company}"  />
 <!--    <StackLayout Orientation="Horizontal">

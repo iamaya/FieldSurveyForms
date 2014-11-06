@@ -93,6 +93,9 @@
     <Compile Include="DataAccess\GetProductStatus.cs" />
     <Compile Include="Helpers\BlogHelper.cs" />
     <Compile Include="Helpers\UploadPicToBlog.cs" />
+    <Compile Include="Views\PictureManager.xaml.cs">
+      <DependentUpon>PictureManager.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -131,6 +134,9 @@
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\ProductItems.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PictureManager.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

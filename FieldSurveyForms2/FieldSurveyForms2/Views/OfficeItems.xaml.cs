@@ -20,6 +20,7 @@ namespace FieldSurveyForms2.Views
         public OfficeCell()
         {
             View = new OfficeItems();
+			Height = 200;
         }
     }
 }

@@ -1,19 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FieldSurveyForms2/FieldSurveyForms2.iOS/Main.cs">
     <Files>
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml.cs" Line="3" Column="3" />
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml" Line="1" Column="1" />
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/packages.config" Line="1" Column="1" />
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Helpers/UploadPicToBlog.cs" Line="16" Column="16" />
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ManifestItems.xaml" Line="15" Column="15" />
-      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/Manifests.xaml" Line="1" Column="1" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml.cs" Line="24" Column="24" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/PictureManager.xaml" Line="1" Column="1" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/OfficeDetails.xaml.cs" Line="23" Column="23" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml" Line="14" Column="14" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/OfficeItems.xaml" Line="1" Column="1" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2/Views/OfficeDetails.xaml" Line="19" Column="19" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="FieldSurveyForms2/FieldSurveyForms2.iOS/AppDelegate.cs" Line="30" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/imaya/Documents/Git/Xamarin/NewField/FieldSurveyForms/FieldSurveyForms2/FieldSurveyForms2/Views/ProductItems.xaml.cs" line="16" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>

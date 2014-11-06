@@ -2,31 +2,35 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 x:Class="FieldSurveyForms2.Views.ProductItems">
-	<StackLayout Orientation="Vertical">
-		<StackLayout Orientation="Horizontal">
-			<Label Text="Product : " YAlign="Center" TextColor="Aqua" />
-			<Label Text="{Binding Product.Name}" YAlign="Center" />
-		</StackLayout>
-		<StackLayout Orientation="Horizontal">
-			<Label Text="Authorization : " YAlign="Center" />
-			<Label Text="{Binding Barcode}" YAlign="Center" />
-		</StackLayout>
-		<StackLayout Orientation="Horizontal">
-			<Label Text="Status : " YAlign="Center" />
-			<Label Text="{Binding Status1.Status1}" YAlign="Center" />
-		</StackLayout>
+	<StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+	<StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" >
+
+	<!--		<StackLayout Orientation="Horizontal" >-->
+			<Label Text="Product "  TextColor="Green"/>
+			<Label Text="{Binding Product.Name}"  />
+<!--		</StackLayout>-->
+<!--		<StackLayout Orientation="Horizontal" >-->
+			<Label Text="Authorization " TextColor="Green" />
+			<Label Text="{Binding Barcode}"  />
+<!--		</StackLayout>-->
+<!--		<StackLayout Orientation="Horizontal">-->
+			<Label Text="Status " TextColor="Green" />
+			<Label Text="{Binding Status1.Status1}" />
+<!--		</StackLayout>-->
 		<!--<StackLayout Orientation="Horizontal">
-			<Label Text="Placement : " YAlign="Center" />
-			<Label Text="{Binding Product.Name}" YAlign="Center" />
+			<Label Text="Placement : "  />
+			<Label Text="{Binding Product.Name}"  />
 		</StackLayout>-->
-		<StackLayout Orientation="Horizontal">
-			<Label Text="Comments : " YAlign="Center" />
-			<Label Text="{Binding Comments}" YAlign="Center" />
-		</StackLayout>
-		<StackLayout Orientation="Horizontal" Padding="0,0,0,20">
-			<Label Text="Pictures : " YAlign="Center" />
-			<Label Text="{Binding Product.Name}" YAlign="Center" />
-		</StackLayout>
-<Button  BackgroundColor="Yellow"  Text="Add Picture" Clicked="AddPicture"></Button>
+<!--		<StackLayout Orientation="Horizontal">-->
+			<Label Text="Comments " TextColor="Green"  />
+			<Label Text="{Binding Comments}"  />
+<!--		</StackLayout>-->
+<!--		<StackLayout Orientation="Horizontal" Padding="0,0,0,20">
+			<Label Text="Pictures : "  />
+			<Label Text="{Binding Product.Name}"  />
+		</StackLayout>-->
+		<Button Text="Add Picture" Clicked="AddPicture" Id="AddPicture"></Button>
+	</StackLayout>
+	
 	</StackLayout>
 </ContentView>

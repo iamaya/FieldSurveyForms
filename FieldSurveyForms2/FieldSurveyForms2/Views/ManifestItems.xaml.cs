@@ -21,6 +21,7 @@ namespace FieldSurveyForms2.Views
         public ManifestCell()
         {
             View = new ManifestItems();
+			Height = 80;
         }
     }
 }
